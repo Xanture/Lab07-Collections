@@ -1,17 +1,37 @@
-﻿namespace lab07_brian
+﻿using System;
+using System.Runtime.InteropServices;
+
+namespace lab07_brian
 {
     class Product
     {
-        public ProductList CatList { get; set; }
+        public string Name { get; set; }
+        public double Price { get; set; }
+        public bool IsForCats { get; set; }
+        public Department Placement { get; set; }
+
+        public Product(string name, double price)
+        {
+            Name = name;
+            Price = price;
+        }
+
+        public void CatsMeow()
+        {
+            if (Placement == Department.Meat && Name == "Salmon")
+            {
+                Console.WriteLine("I want that right Meeeow!");
+            }
+        }
+
     }
-    enum ProductList : int
+    enum Department : int
     {
-        Catnip,
-        Fish,
-        Yarn,
-        Ball,
-        Human,
-        Blanket,
-        Caviar
+        Meat = 1,
+        Produce,
+        Cleaning,
+        Baking,
+        Pets,
+        HouseholdGoods
     }
 }

@@ -19,6 +19,25 @@ namespace lab07_brian
             count++;
         }
 
+        public void Remove(T item)
+        {
+            T[] buffer = new T[count - 1];
+            int buffercount = 0;
+
+            foreach (T i in items)
+            {
+                if (i != null)
+                {
+                    if (!i.Equals(item))
+                    {
+                        buffer[buffercount] = i;
+                        buffercount++;
+                    }
+                }
+            }
+            items = buffer;
+            count--;
+        }
         public IEnumerator<T> GetEnumerator()
         {
             for (int i = 0; i < count; i++)

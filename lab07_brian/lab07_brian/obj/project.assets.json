@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\projects\\401d1\\lab07-brian\\lab07_brian\\lab07_brian\\lab07_brian.csproj",
+      "projectUniqueName": "C:\\projects\\401d1\\Labs\\Lab07-brian\\lab07_brian\\lab07_brian\\lab07_brian.csproj",
       "projectName": "lab07_brian",
-      "projectPath": "C:\\projects\\401d1\\lab07-brian\\lab07_brian\\lab07_brian\\lab07_brian.csproj",
+      "projectPath": "C:\\projects\\401d1\\Labs\\Lab07-brian\\lab07_brian\\lab07_brian\\lab07_brian.csproj",
       "packagesPath": "C:\\Users\\Drago\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\401d1\\lab07-brian\\lab07_brian\\lab07_brian\\obj\\",
+      "outputPath": "C:\\projects\\401d1\\Labs\\Lab07-brian\\lab07_brian\\lab07_brian\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
